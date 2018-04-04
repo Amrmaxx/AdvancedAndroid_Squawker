@@ -57,6 +57,7 @@ public class SquawkFirebaseMessagingService extends FirebaseMessagingService {
                 return null;
             }
         };
+        insertSquakeTask.execute();
     }
 
 
