@@ -28,6 +28,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     testCompile 'junit:junit:4.12'
 
+    compile 'com.google.firebase:firebase-core:12.0.1'
+
     // RecyclerView
     compile 'com.android.support:recyclerview-v7:25.1.0'
 
@@ -37,6 +39,7 @@ dependencies {
 
     // Preferences Dependencies
     compile 'com.android.support:preference-v7:25.1.0'
+    compile 'com.google.firebase:firebase-messaging:12.0.1'
 
     // TODO (3) Add the Firebase libraries and apply the GPS plugin in this file. Make sure to save the
     // google.services.json file in the app folder. After syncing the changes, you should be able
@@ -44,3 +47,5 @@ dependencies {
     // background!
 
 }
+
+apply plugin: 'com.google.gms.google-services'
